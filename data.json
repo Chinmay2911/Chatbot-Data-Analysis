@@ -1,0 +1,738 @@
+{
+        "intents": [
+                
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "cya",
+                                "see you",
+                                "bye bye",
+                                "See you later",
+                                "Goodbye",
+                                "I am Leaving",
+                                "Bye",
+                                "Have a Good day",
+                                "talk to you later",
+                                "tyyl",
+                                "i got to go",
+                                "gtg"
+                        ],
+                        "responses": [
+                                "Talk to you later",
+                                "Goodbye!",
+                                "Come back soon",
+                                "Bye!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi",
+                                "How are you",
+                                "Is anyone there?",
+                                "Hello",
+                                "Good day",
+                                "Whats up",
+                                "how are ya",
+                                "heyy",
+                                "whatsup"
+                        ],
+                        "responses": [
+                                "Hello!",
+                                "Good to see you again!",
+                                "Hi there, how can I help?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "creator",
+                        "patterns": [
+
+                                "what is the name of your developers",
+                                "what is the name of your creators",
+                                "what is the name of the developers",
+                                "what is the name of the creators",
+                                "who created you",
+                                "your developers",
+                                "your creators",
+                                "who are your developers",
+                                "developers",
+                                "you are made by",
+                                "you are made by whom",
+                                "who created you",
+                                "who create you",
+                                "creators",
+                                "who made you",
+                                "who designed you"
+                        ],
+                        "responses": [
+                                "Chinmay Pradhan has developed me in 2022, for his Semester IV Project",
+                                "I was developed by Chinmay Pradhan"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "name",
+                        "patterns": [
+                                "name",
+                                "your name",
+                                "do you have a name",
+                                "what are you called",
+                                "what is your name",
+                                "what should I call you",
+                                "whats your name?",
+                                "what are you",
+                                "who are you",
+                                "who is this",
+                                "what am i chatting to",
+                                "who am i taking to",
+                                "what are you"
+                        ],
+                        "responses": [
+                                "You can call me Lawrance.",
+                                "I'm Lawrance",
+                                "I'm Lawrance aka College's Chatbot."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hours",
+                        "patterns": [
+                                "timing of college",
+                                "what is college timing",
+                                "working days",
+                                "when are you guys open",
+                                "what are your hours",
+                                "hours of operation",
+                                "when is the college open",
+                                "college timing",
+                                "what about college timing",
+                                "is college open on saturday",
+                                "tell something about college timing",
+                                "what is the college  hours",
+                                "when should i come to college",
+                                "when should i attend college",
+                                "what is my college time",
+                                "college timing",
+                                "timing college"
+                        ],
+                        "responses": [
+                                "College is open from 9AM to 5PM, Monday to Friday!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "contact",
+                        "patterns": [
+                                "more info",
+                                "contact info",
+                                "how to contact college",
+                                "college telephone number",
+                                "college number",
+                                "What is your contact no",
+                                "Contact number?",
+                                "how to call you",
+                                "College phone no?",
+                                "how can i contact you",
+                                "Can i get your phone number",
+                                "how can i call you",
+                                "phone number",
+                                "phone no",
+                                "call"
+                        ],
+                        "responses": [
+                                "You can contact at +91 70282 33777 or you can drop a mail at admissions@somaiya.edu"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "course",
+                        "patterns": [
+                                "list of courses",
+                                "list of courses offered",
+                                "list of courses offered in Somaiya Vidyavihar",
+                                "what are the courses offered in your college?",
+                                "courses?",
+                                "courses offered",
+                                "courses offered in Somaiya Vidyavihar",
+                                "courses you offer",
+                                "branches?",
+                                "courses available at SVU?",
+                                "branches available at SVU?",
+                                "what are the courses in SVU?",
+                                "what are branches in SVU?",
+                                "what are courses in SVU?",
+                                "branches available in SVU?",
+                                "can you tell me the courses available in SVU?",
+                                "can you tell me the branches available in SVU?",
+                                "cs",
+                                "CS"
+                        ],
+                        "responses": [
+                                "SVU offers Degree in Information Technology, Civil Engineering and Mechanical Engineering, Arts & Humanities, Commerce & Business Studies and more than <b>200+</b> programmes offered through <b>9 Colleges</b>."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "fees",
+                        "patterns": [
+                                "information about fee",
+                                "information on fee",
+                                "tell me the fee",
+                                "college fee",
+                                "fee per semester",
+                                "what is the fee of each semester",
+                                "what is the fees of each year",
+                                "what is fee",
+                                "what is the fees",
+                                "how much is the fees",
+                                "fees for first year",
+                                "fees",
+                                "about the fees",
+                                "tell me something about the fees"
+                        ],
+                        "responses": [
+                                "We are delighted that you are considering an postgraduate programmes at K J Somaiya College of Arts & Commerce. Please read all instructions and requirements carefully to ensure a complete and correct application. Feel free to contact us on principal@kjsac.somaiya.edu in case of any queries. For Fee detail visit <a target=\"_blank\" href=\"https://kjsac.somaiya.edu.in/en/admission/postgraduate\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "location",
+                        "patterns": [
+                                "where is the college located",
+                                "college is located at",
+                                "where is college",
+                                "where is college located",
+                                "address of college",
+                                "how to reach college",
+                                "college location",
+                                "college address",
+                                "wheres the college",
+                                "how can I reach college",
+                                "whats is the college address",
+                                "what is the address of college",
+                                "address",
+                                "location"
+                        ],
+                        "responses": [
+                                "Vidyanagar, Vidya Vihar East, Vidyavihar, Mumbai, Maharashtra 400077 <a target=\"_blank\" href=\"https://g.page/somaiya-vidyavihar-university?share\"> here</a> "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "hostel",
+                        "patterns": [
+                                "hostel facility",
+                                "hostel servive",
+                                "hostel location",
+                                "hostel address",
+                                "hostel facilities",
+                                "hostel fees",
+                                "Does college provide hostel",
+                                "Is there any hostel",
+                                "Where is hostel",
+                                "do you have hostel",
+                                "do you guys have hostel",
+                                "hostel",
+                                "hostel capacity",
+                                "what is the hostel fee",
+                                "how to get in hostel",
+                                "what is the hostel address",
+                                "how far is hostel from college",
+                                "hostel college distance",
+                                "where is the hostel",
+                                "how big is the hostel",
+                                "distance between college and hostel",
+                                "distance between hostel and college"
+                        ],
+                        "responses": [
+                                "<b>Somaiya Vidyavihar has 3 hostels on campus:</b> <br/><br/>1. Sandipani is the boys hostel building that is spread over 1,53,000 sq.ft across 11 floors. The hostel accommodates 683 boys on double and triple sharing basis <br/><br/>2. Maitreyi Hostel - The girls hostel: Maitreyi is 94,000 sq.ft in area spread over 5 floors. The hostel has an intake capacity is of 373 girls on double and triple sharing basis. <br/><br/>3. Polytechnic Hsotel - Polytechnic is the boys and girls hostel building that is spread over 47637.37 Sq.ft across 6 floors. The hostel accommodates boys and girls on four sharing basis. <br/><br/>For more information visit <a target=\"_blank\" href=\"https://www.somaiya.edu/en/hostel-housing/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "event",
+                        "patterns": [
+                                "events organised",
+                                "list of events",
+                                "list of events organised in college",
+                                "list of events conducted in college",
+                                "What events are conducted in college",
+                                "Are there any event held at college",
+                                "Events?",
+                                "functions",
+                                "what are the events",
+                                "tell me about events",
+                                "what about events"
+                        ],
+                        "responses": [
+                                "TechXposure, E-Summit'22, Parlament Visits, Sports Activities, Conferences, Journalistic Forum and various other event conducted in the college.<br/><br/> For more information you can visit college Website <a target=\"_blank\" href=\"https://www.somaiya.edu/en/events-and-updates/\"> here "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "document",
+                        "patterns": [
+                                "document to bring",
+                                "documents needed for admision",
+                                "documents needed at the time of admission",
+                                "documents needed during admission",
+                                "documents required for admision",
+                                "documents required at the time of admission",
+                                "documents required during admission",
+                                "What document are required for admission",
+                                "Which document to bring for admission",
+                                "documents",
+                                "what documents do i need",
+                                "what documents do I need for admission",
+                                "documents needed"
+                        ],
+                        "responses": [
+                                "To know more about Undergraduate program document required visit <a target=\"_blank\" href=\"https://kjsac.somaiya.edu.in/en/admission/Junior_college\"> here</a> <br><br>",
+                                "To know more about Graduate program document required visit <a target=\"_blank\" href=\"https://kjsac.somaiya.edu.in/en/admission/postgraduate\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "campus",
+                        "patterns": [
+                                "size of campus",
+                                "building size",
+                                "College campus",
+                                "How many floors does college have",
+                                "floors in college",
+                                "floors in college",
+                                "how tall is Somaiya Vidyavihar college building",
+                                "floors"
+                        ],
+                        "responses": [
+                                "We offer Certificate, Diploma and Degree courses at Undergraduate, Post Graduate and Doctoral levels in the streams of Arts, Sciences, Management, Engineering, Medicine, Information- Technology, Mass Media, Philosophies and Social Sciences <br/> For more information about college campus, click <a target=\"_blank\" href=\"https://kjsac.somaiya.edu.in/en/admission/Junior_college\"> here</a> <br/> <img class=\"chat-bubble\" src=\"https://www.somaiya.edu/assets/university/img/history/campus.jpg\" />"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "syllabus",
+                        "patterns": [
+                                "Syllabus for CS",
+                                "what is the Computer Science syllabus",
+                                "syllabus",
+                                "timetable",
+                                "what is CS syllabus",
+                                "syllabus",
+                                "What is next lecture"
+                        ],
+                        "responses": [
+                                "The programme finds a firm footing in private sector in software development firms, R&D departments, technical support, Business analytics, Digital Forensic Services. Besides these the learners are well equipped to seed startups with innovative products.<br><br>To know about syllabus and timetable visit <a target=\"_blank\" href=\"https://sksc.somaiya.edu/en/programme/master-of-science-computer-science\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "library",
+                        "patterns": [
+                                "is there any library",
+                                "library facility",
+                                "library facilities",
+                                "do you have library",
+                                "does the college have library facility",
+                                "college library",
+                                "where can i get books",
+                                "book facility",
+                                "Where is library",
+                                "Library",
+                                "Tell me about library",
+                                "how many libraries"
+                        ],
+                        "responses": [
+                                "S.K. Somaiya College Library aims to serve the needs of students, faculty and staff members of the library. The library is located in the Aurobindo building and is spread across two floors over 835 sq. mtr., with a seating capacity for more than 100 students. the main library is located on the third floor Reference section and Reading area (493sq.m.) of the institutional building and Circulation Section (342sq.m.) is located on the first floor of the building.<br><br>For more information visit<a target=\"_blank\" href=\"https://sksc.somaiya.edu/en/library/\"> here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "infrastructure",
+                        "patterns": [
+                                "how is college infrastructure",
+                                "infrastructure",
+                                "college infrastructure"
+                        ],
+                        "responses": [
+                                "Somaiya Vidyavihar University has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection."     
+                        ],
+                        
+                        "context_set": ""
+                },
+                {
+                        "tag": "canteen",
+                        "patterns": [
+                                "food facilities",
+                                "canteen facilities",
+                                "canteen facility",
+                                "is there any canteen",
+                                "Is there a cafetaria in college",
+                                "Does college have canteen",
+                                "Where is canteen",
+                                "where is cafetaria",
+                                "canteen",
+                                "Cafetaria"
+                        ],
+                        "responses": [
+                                "Somaiya Vidyavihar has canteen with variety of food available"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "iqac",
+                        "patterns": [
+                                "what is iqac",
+                                "functions of iqac",
+                                "iqac",
+                                "benefits of iqac",
+                                "iqac meaning"
+                        ],
+                        "responses": [
+                                "The prime task of the IQAC is to develop a system for conscious, consistent and catalytic improvement in the overall performance of institutions. For this, during the post- accreditation period, institutions need to channelize its efforts and measures towards promoting the holistic academic excellence including the peer committee recommendations. <br>For more information visit <a target=\"_blank\" href=\"https://kjsac.somaiya.edu.in/en/iqac-about\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "placement",
+                        "patterns": [
+                                "What is college placement",
+                                "Which companies visit in college",
+                                "What is average package",
+                                "companies visit",
+                                "package",
+                                "placement",
+                                "recruitment",
+                                "companies"
+                        ],
+                        "responses": [
+                                "The training and placement cell provides placement services to students through campus interviews.Many multinational and well- known Indian conglomerates regularly visit KJSCE for campus placement every year. Training and placement cell motivates and prepares the students for the interviews and prospective workplaces.<br><br>To know about placement visit <a target=\"_blank\" href=\"https://kjsce.somaiya.edu/en/placement/about/\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "cshod",
+                        "patterns": [
+                                "Who is CS HOD",
+                                "Where is CS HOD",
+                                "cs hod",
+                                "computer science hod",
+                                "name of cs hod"
+                        ],
+                        "responses": [
+                                "Dr. Swati Maurya is CS HOD who is available on Third Floor or you can reach out to them at swati.maurya@somaiya.edu"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "principal",
+                        "patterns": [
+                                "what is the name of principal",
+                                "whatv is the principal name",
+                                "principal name",
+                                "director",
+                                "Who is college principal",
+                                "Where is principal's office",
+                                "principal",
+                                "name of principal"
+                        ],
+                        "responses": [
+                                "CA Monica Lodha is college director who is Chartered Accountant & a Faculty at Somaiya Vidyavihar. She is the Coordinator of Self-Financing Courses at K J Somaiya College of Science and Commerce. In a service of a decade at Somaiya Vidyavihar she has published and presented 14 Research Papers in State, National, and International Conference & Seminars."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "sem",
+                        "patterns": [
+                                "exam dates",
+                                "exam schedule",
+                                "When is semester exam",
+                                "Semester exam timetable",
+                                "sem",
+                                "semester",
+                                "exam",
+                                "when is exam",
+                                "exam timetable",
+                                "exam dates",
+                                "when is semester"
+                        ],
+                        "responses": [
+                                "Here is the Academic Calendar  <a target=\"_blank\" href=\"https://sksc.somaiya.edu/en/notices\">website</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "admission",
+                        "patterns": [
+                                "what is the process of admission",
+                                "what is the admission process",
+                                "How to take admission in your college",
+                                "What is the process for admission",
+                                "admission",
+                                "admission process"
+                        ],
+                        "responses": [
+                                "Application can also be submitted online through the Unversity's  <a target=\"_blank\" href=\"https://admissions.somaiya.edu/\">website</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "facilities",
+                        "patterns": [
+                                "What facilities college provide",
+                                "College facility",
+                                "What are college facilities",
+                                "facilities",
+                                "facilities provided"
+                        ],
+                        "responses": [
+                                "Somaiya Vidyavihar provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "college intake",
+                        "patterns": [
+                                "max number of students",
+                                "number of seats per branch",
+                                "number of seats in each branch",
+                                "maximum number of seats",
+                                "maximum students intake",
+                                "What is college intake",
+                                "how many stundent are taken in each branch",
+                                "seat allotment",
+                                "seats"
+                        ],
+                        "responses": [
+                                "For IT, Civil and Mechanical 60 per branch "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "uniform",
+                        "patterns": [
+                                "college dress code",
+                                "college dresscode",
+                                "what is the uniform",
+                                "can we wear casuals",
+                                "Does college have an uniform",
+                                "Is there any uniform",
+                                "uniform",
+                                "what about uniform",
+                                "do we have to wear uniform"
+                        ],
+                        "responses": [
+                                "Somaiya Vidyavihar does not have uniform"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "committee",
+                        "patterns": [
+                                "what are the different committe in college",
+                                "different committee in college",
+                                "Are there any committee in college",
+                                "Give me committee details",
+                                "committee",
+                                "how many committee are there in college"
+                        ],
+                        "responses": [
+                                "There are various committe in college you can see at  <a target=\"_blank\" href=\"https://www.somaiya.edu/en/board-of-management/\">here</a> "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "random",
+                        "patterns": [
+                                
+                                "I love you",
+                                "Will you marry me",
+                                "Do you love me"
+                        ],
+                        "responses": [
+                                "I am not program for this please ask appropriate query"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "swear",
+                        "patterns": [
+                                "fuck",
+                                "bitch",
+                                "shut up",
+                                "hell",
+                                "stupid",
+                                "idiot",
+                                "dumb ass",
+                                "asshole",
+                                "fucker"
+                        ],
+                        "responses": [
+                                "Please use appropriate language",
+                                "Maintaining decency would be appreciated"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "vacation",
+                        "patterns": [
+                                "holidays",
+                                "when will semester starts",
+                                "when will semester end",
+                                "when is the holidays",
+                                "list of holidays",
+                                "about vacations",
+                                "about holidays",
+                                "When is vacation",
+                                "When is holidays",
+                                "how long will be the vacation"
+                        ],
+                        "responses": [
+                                "Please refer to the notice board available <a target=\"_blank\" href=\"https://sksc.somaiya.edu/en/notices\">here</a>"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "salutaion",
+                        "patterns": [
+                                "okk",
+                                "okie",
+                                "nice work",
+                                "well done",
+                                "good job",
+                                "thanks for the help",
+                                "Thank You",
+                                "its ok",
+                                "Thanks",
+                                "k",
+                                "ok",
+                                "okay"
+                        ],
+                        "responses": [
+                                "I am glad I helped you",
+                                "welcome, anything else i can assist you with?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "task",
+                        "patterns": [
+                                "what can you do",
+                                "what are the thing you can do",
+                                "things you can do",
+                                "what can u do for me",
+                                "how u can help me",
+                                "why i should use you"
+                        ],
+                        "responses": [
+                                "I can answer to low-intermediate questions regarding college",
+                                "You can ask me questions regarding college, and i will try to answer them"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag":"ragging",
+                        "patterns":[
+                                "ragging",
+                                "is ragging practice active in college",
+                                "does college have any antiragging facility",
+                                "is there any ragging cases",
+                                "is ragging done here",
+                                "ragging juniors",
+                                "ragging history",
+                                "ragging incidents",
+                                "grevience",
+                                "Grievance Redressal System",
+                                "Tell me something about Grievance Redressal System",
+                                "tell me something about grevience",
+                                "grevience committee"
+                        ],
+                        "responses": [
+                                "“The Grievance Redressal System” of Somaiya Vidyavihar is committed to handle / resolve the genuine complaints, problems or suggestions of the students. They can fill in the form below or may also approach any member of the faculty as comfortable to them.<br><br>Students are requested to note that making a complaint is serious and therefore we trust that they will use this power in a responsible manner. Please note, the college assures students that once a complaint is made, it will be treated with sensitivity, confidentiality and significance.<br><br>For more information visit<a target=\"_blank\" href=\"https://grievances.somaiya.edu/\"> here</a>"
+                        ]
+
+                },
+                {
+                        "tag":"hod",
+                        "patterns":[
+                                "hod",
+                                "hod name",
+                                "who is the hod"
+                        ],
+                        "responses":[
+                                "HODs differ for each branch, please be more specific like: (HOD it)"
+                        ]
+                },
+                {
+                        "tag":"transport",
+                        "patterns":[
+                                "best bus route",
+                                "mode of transportation",
+                                "how to get to college",
+                                "buses for college",
+                                "college buses",
+                                "bus routes",
+                                "list of buses for travelling"
+                                
+                        ],
+                        "responses":[
+                                "You can come to Vidyavihar by using the BEST buses. The following buses come to Vidyavihar on the eastern side.<br><br><b>385 - (Mumbai Central bus depot to Ghatkopar Bus Depot)<br>353 - (Wadala Depot to Tagore Nagar)<br>399 - (Marathon Chowk(Thane) to Anushakti Nagar(Chembur))</b><br><br>For more information visit<a target=\"_blank\" href=\"https://www.somaiya.edu/en/maps-directions/\"> here</a>"
+                        ]
+                },
+                {
+                        "tag": "metro",
+                        "patterns":[
+                                "nearest metro station",
+                                "what is the nearest metro station",
+                                "which metro station is near",
+                                "closest metro station",
+                                "which metro station is closest",
+                                "nearby metro stations",
+                                "metro",
+                                "metro station nearby"
+                        ],
+                        "responses":[
+                                "Ghatkopar metro station"
+                        ]
+                },
+                {
+                        "tag": "scholarships",
+                        "patterns":[
+                                "scholarships",
+                                "what scholarships does the college provide",
+                                "name of available scholarships",
+                                "can i apply for scholarships",
+                                "scholarships availability",
+                                "scholarships application",
+                                "scholarship"
+                        ],
+                        "responses":[
+                                "At Somaiya we are committed to making world class education accessible and affordable to students from all walks of life. This is made possible through Somaiya Scholarships and Financial Aid programs.<br><br><b>Types of aid available are</b><br>1. Financial Aid<br>2. Somaiya Scholarships<br>3. Institutional Scholarships<br><br>For more information visit<a target=\"_blank\" href=\"https://scholarships.somaiya.edu/en/\"> here</a>"
+                        ]
+                },
+                {
+                        "tag": "faq",
+                        "patterns":[
+                                "faq",
+                                "fequently asked questions",
+                                "what are the fequently asked questions",
+                                "show me fequently asked questions",
+                                "faqs",
+                                "questions which are fequently asked",
+                                "faqs"
+                        ],
+                        "responses":[
+                                "Please refer to the Frequently Asked Questions available <a target=\"_blank\" href=\"https://www.somaiya.edu/en/faqs/\">here</a>"
+                        ]
+                },
+                {
+                        "tag": "noanswer",
+                        "patterns":[],
+                        "responses":[
+                                "Sorry I can't understand you."
+                        ]
+                }
+                
+        ]
+}
